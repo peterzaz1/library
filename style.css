@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f6f9;
+    font-family: Poppins, sans-serif;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 1px rgba(34, 34, 34, 0.25);
+}
+
+.navbar h1,
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.sidebar {
+    position: fixed;
+    flex-shrink: 0;
+    width: 240px;
+    height: 100%;
+    background-color: #f0eef1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+form input {
+    margin: 25px 0;
+    background-color: #f0eef1;
+    border: none;
+    border-bottom: 2px dotted black;
+    padding: 5px;
+    text-align: center;
+}
+form span label {
+    padding-right: 8px;
+}
+form #add-book {
+    border: none;
+    border-radius: 6px;
+    background-color: #9fff9c;
+    padding: 11px 26px;
+}
+
+form #icon {
+    margin-top: 50px;
+}
